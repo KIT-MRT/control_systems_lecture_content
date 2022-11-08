@@ -33,14 +33,8 @@ It can take some time until the environment is loaded, depending on how frequent
 
 Running the code on your local machine gives you more flexibility, and you don't have to wait until binder is ready to execute your code. The following instructions work for Ubuntu systems. On other operating systems, you might have to adapt them.
 
-- Install Julia >= 1.7
-  ```
-  URL=https://julialang-s3.julialang.org/bin/linux/x64/1.7/julia-1.7.3-linux-x86_64.tar.gz
-  wget -nv $URL -O /tmp/julia.tar.gz
-  mkdir ~/julia-1.7.3
-  tar -x -f /tmp/julia.tar.gz -C ~/julia-1.7.3 --strip-components 1
-  ln -s ~/julia-1.7.3/bin/julia ~/bin/julia
-  ```
+- Install Julia >= 1.7 
+  - Using [juliaup](https://github.com/JuliaLang/juliaup)
   - Alternatively download from [https://julialang.org/downloads/](https://julialang.org/downloads/)
 - Install Juypter lab
   ```
